@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMORY CHALLENGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <h2>MEMORY CHALLENGEE🧠</h2>
+        <h3>Select a theme👇</h3>
+        <button class="category" data-category="FRUITS">FRUITS🍒</button>
+        <button class="category" data-category="EMOJIS">EMOJIS😉</button>
+        <button class="category" data-category="ANIMALS">ANIMALS🐶</button>
+        <button class="category" data-category="PLANETS">PLANETS🪐</button><br>
+        <button class="category" data-category="LANDMARKS">LANDMARKS🗽</button>
+        <button class="category" data-category="FLAGS">FLAGS🏴</button>
+
+    </div>
+         
+
+
+
+    <div id="game-container" class="hidden">
+        <div class="stats">
+            <div class="timer">Time: <span id="time">0</span> sec</div>
+            <div class="moves">Moves: <span id="moves">0</span></div>
+        </div>
+        <div class="game-board" id="game-board"></div>
+        <!-- cards will be generated here -->
+        <button id="restart">playagain</button>
+        <button id="back">menu</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
